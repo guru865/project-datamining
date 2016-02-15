@@ -57,8 +57,11 @@ These tables show  examples of the data that should go into each column and row.
 
 
 
+
+
 | Checkpoint date | Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
-|2/14/16|Exploring data analaysis of  LinkedIn API Access data setthrough standard authentication mechanisms . |Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe |meets project proposal check point|
-|WHEN |  What will be delivered?  These should be small enough tasks to complete in the time given and large enough to represent some complexity. | Who will delivery this?    | WHAT WERE THE RESULTS?  FILL THIS IN AFTER THE CHECKPOINT HAS PASSED! |
+|---------------|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+|2/14/16| Exploring data analaysis of  LinkedIn API Access data setthrough standard authentication mechanisms .  | Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe   | Meets project proposal check point |
 |     ...          | -- | --                    |  -- |
+
 
