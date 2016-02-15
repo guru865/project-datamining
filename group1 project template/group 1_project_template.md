@@ -1,57 +1,45 @@
-PROJECT TITLE
+Clustering your LinkedIn professional network based upon the locations of your connections and emitting KML output for visualization with Google Earth.
+
 =============
 
 # OVERVIEW
-In this section describe the background for your application or analysis.  Be detailed enough to provide the 
-
-- motivation,
-- background literature,
-- basic problem that is being solved,
-- expected improvement your application will achieve, OR
-- expected outcomes of your analyis.
+In our day to dy life we see machine learning and analaysis of open data set useful to the developers across the world to build a tool to explore some useful information . We would like to use data from our linkedin connections cluster them using kmeans clustering and visualizing the output on Google Earth. The job network we build is one of the most crucial aspect in our career. How wide and varied it is puts us in an important position. We are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
 
 # DATA
-In this section describe the data being used in your application or analysis.  You should include all details of:
 
-- the source of the data and where to obtain it,
-- the API (if any) used to obtain the data (e.g. Twitter API)
-- the original form of the data (web, csv, etc.),
-- the languages, tools and libraries used to process the data (web scraping tools, Python, CSV libraries, etc.),
-- any subsetting of the data used in your project if the full dataset was not used.
+LinkedIn API Access
 
-All data must be openly available (or obtained from public/open systems).  You may use an API to obtain data if the API is free and/or the account to access it is free.
+LinkedIn implements OAuth 2.0 as one of its standard authentication mechanisms, but still supports OAuth 1.0a, which provides you with four credentials ("API Key", "Secret Key", "OAuth User Token", and "OAuth User Secret") that can be used to gain instant API access with no further fuss or redirections. we can create an app and retrieve these four credentials through the "Developer" section from the account settings by navigating directly to https://www.linkedin.com/secure/developer.
+
+
+Note that we need to install a third-party package called python-linkedin to use the code in this notebook. Installing a package directly from a GitHub repository is easy with pip in the terminal as follwed 
+
+
+pip install python-linkedin.
 
 
 # RESEARCH QUESTIONS
-Describe the core questions you will be pursuing within the project.  These questions will lead the reader to your interest in the data and provide the bridge between your motivation and analysis.  
+intial methodology
+we are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
 
 
 # MODELS AND ANALYSIS
 
-What models did you use to process your data and perform the analysis of your research questions?  
+The models are described and the preliminary analyses will be performed in a Jupyter Notebook and development in python and soon we will post them in our Github repo under analysis.
 
-Describe your methods and how you applied your models to the data.  
 
 
 # CODE AND APPLICATION
+ 
+Will post the code in our github repository and instructions on installation are in the README.md file at the root level soon.
 
-For your application you will be writing code.  Please make sure your group:
 
-- provides the Github link to your code,
-- provides detailed instructions on how to compile and deploy your code,
-- provides any special instructions for running your code and/or applying data to see the results.
 
-The code needs to be Github and instructions on installation are in the README.md file at the root level.
-
-# PROJECT MANAGEMENT
-
+we are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
+Kishore will be taking care of development ,data analaysis ,  Back end work consisted of an API that was created to provide data to the front end. and Writing O Auth script to pull linked in Connections and deepthi and rahul would work on data set, data analaysis and UI development and together we are collaborating to check the progress of the project testing.
 You will need to provide details on:
 
-- the team members,
-- the roles of each member,
-- the skills and contributions of each member.
 
-You will also provide details about the project deliverables and milestones.  These example tables should be used as a guide.
 
 # PROJECT TEAM, DELIVERABLES AND CHECKPOINTS
 These tables show  examples of the data that should go into each column and row.
@@ -61,16 +49,16 @@ These tables show  examples of the data that should go into each column and row.
 
 | Team member | Roles and skills | Contributions |
 |-------------|-------------------------|---------------------------------------------|
-| MEMBER NAME | What will they do in the project?  What skills do they bring?  What interests will they explore? | Fill the contributions in when the deliverables have been completed and you have results to report.  These can be summarized, but the intent is that this will allow an easy way to see who did what. |
-| MEMBER #2 NAME | -- | -- |
-| MEMBER # _N_ NAME | -- | -- |
+| Kishore Kumar Sunkoju | API development ,data analaysis, Python|  Web API ,Data Analysis  |
+| Deepthi Chenagoni | Data analysis ,Testing | build scripts , data analysis,testing |
+| Rahul Monthe | Testing ,Data analysis  |  Data analysis,test harness; build scripts.|
 
 ## DELIVERABLES AND CHECKPOINTS
 
-The deliverable and checkpoints will be iteratively completed.  At the end of the project, there should be a fair amount of content these tables that details the who, what and when of your project.  Don't worry if you don't have all the deliverables sketched out -- this is a LIVING table, and should be updated frequently by all team members involved in the project.
+
 
 | Checkpoint date | Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
-|---------------|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|WHEN | What will be delivered?  These should be small enough tasks to complete in the time given and large enough to represent some complexity. | Who will delivery this?    | WHAT WERE THE RESULTS?  FILL THIS IN AFTER THE CHECKPOINT HAS PASSED! |
+|2/14/16|Exploring data analaysis of  LinkedIn API Access data setthrough standard authentication mechanisms . |Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe |meets project proposal check point|
+|WHEN |  What will be delivered?  These should be small enough tasks to complete in the time given and large enough to represent some complexity. | Who will delivery this?    | WHAT WERE THE RESULTS?  FILL THIS IN AFTER THE CHECKPOINT HAS PASSED! |
 |     ...          | -- | --                    |  -- |
 
