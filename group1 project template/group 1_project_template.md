@@ -3,7 +3,7 @@ Clustering your LinkedIn professional network based upon the locations of your c
 =============
 
 # OVERVIEW
-In our day to dy life we see machine learning and analaysis of open data set useful to the developers across the world to build a tool to explore some useful information . We would like to use data from our linkedin connections cluster them using kmeans clustering and visualizing the output on Google Earth. The job network we build is one of the most crucial aspect in our career. How wide and varied it is puts us in an important position. We are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
+In our day to day life we see machine learning and analaysis of open data set useful to the developers across the world to build a tool to explore some useful information . We would like to use data from our linkedin connections cluster them using kmeans clustering and visualizing the output on Google Earth. The job network we build is one of the most crucial aspect in our career. How wide and varied it is puts us in an important position. We are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
 
 # DATA
 
@@ -19,7 +19,7 @@ pip install python-linkedin.
 
 
 # RESEARCH QUESTIONS
-intial methodology
+Intial methodology
 we are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
 
 
