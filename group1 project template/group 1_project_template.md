@@ -8,7 +8,6 @@ Using twitter would like to see the trends on usage of programming languages and
 
 
 
-
 # DATA
 
 We would like to fectch data from twitter streaming API by downloading tweets related to keywords like ruby,java , python etc.
@@ -34,8 +33,8 @@ Will post the code in our github repository and instructions on installation are
 
 
 
-we are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
-Kishore will be taking care of development ,data analaysis ,  Back end work consisted of an API that was created to provide data to the front end.  deepthi and rahul would work on data set, data analaysis and together we are collaborating to check the progress of the project testing.
+Wee are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
+Kishore will be taking care of development ,data analaysis ,back end work consisted of an API that was created to provide data to the front end.  deepthi and rahul would work on data set, data analaysis and together we are collaborating to check the progress of the project testing.
 
 
 
