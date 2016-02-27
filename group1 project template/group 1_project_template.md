@@ -1,26 +1,24 @@
-Clustering your LinkedIn professional network based upon the locations of your connections and emitting KML output for visualization with Google Earth.
+Using twitter to see the trends on usage of programming languages.
 
 =============
 
-# OVERVIEW
-In our day to day life we see machine learning and analaysis of open data set useful to the developers across the world to build a tool to explore some useful information . We would like to use data from our linkedin connections cluster them using kmeans clustering and visualizing the output on Google Earth. The job network we build is one of the most crucial aspect in our career. How wide and varied it is puts us in an important position. We are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
+# OVERVIEW 
+In our day to day life we see machine learning and analaysis of open data set useful to the developers across the world to build a tool to explore some useful information . We would like to use data from our twitter which contain rich data source which can pull information about any topic which we would like to invesigate.Data from twitter can be used in different ways to research different trends like brands revalution of a products,fetching reviews about newly launched products and thier services.
+Using twitter would like to see the trends on usage of programming languages and using twitter data we try to rank programming languages like Java, ruby, javascript, scala and python. 
+
+
 
 # DATA
 
-LinkedIn API Access
+We would like to fectch data from twitter streaming API by downloading tweets related to keywords like ruby,java , python etc.
+As a next step we need to access the 4 modules of information from twiiter as API key , API secret , Access token and Access token secret .
+We will be using the Python library "tweepy" to connect to Twitter Streaming API and download the data .
 
-LinkedIn implements OAuth 2.0 as one of its standard authentication mechanisms, but still supports OAuth 1.0a, which provides you with four credentials ("API Key", "Secret Key", "OAuth User Token", and "OAuth User Secret") that can be used to gain instant API access with no further fuss or redirections. we can create an app and retrieve these four credentials through the "Developer" section from the account settings by navigating directly to https://www.linkedin.com/secure/developer.
-
-
-Note that we need to install a third-party package called python-linkedin to use the code in this notebook. Installing a package directly from a GitHub repository is easy with pip in the terminal as follwed 
-
-
-pip install python-linkedin.
 
 
 # RESEARCH QUESTIONS
 Intial methodology
-we are planning to build a tool which when given the credentials of your linked in account, takes them clusters your connections into groups and displays them on google earth to show how are your connections grouped and where are they from.
+would like to explore the trending programming languanges which are more popular amoung the global devlopers and help new technology seeking aspirants to learn and enhance thier career.
 
 
 # MODELS AND ANALYSIS
@@ -35,9 +33,9 @@ Will post the code in our github repository and instructions on installation are
 
 
 
-we are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
-Kishore will be taking care of development ,data analaysis ,  Back end work consisted of an API that was created to provide data to the front end. and Writing O Auth script to pull linked in Connections and deepthi and rahul would work on data set, data analaysis and UI development and together we are collaborating to check the progress of the project testing.
-You will need to provide details on:
+We are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
+Kishore will be taking care of development ,data analaysis ,back end work consisted of an API that was created to provide data to the front end.  deepthi and rahul would work on data set, data analaysis and together we are collaborating to check the progress of the project testing.
+
 
 
 
@@ -49,9 +47,9 @@ These tables show  examples of the data that should go into each column and row.
 
 | Team member | Roles and skills | Contributions |
 |-------------|-------------------------|---------------------------------------------|
-| Kishore Kumar Sunkoju | API development ,data analaysis, Python|  Web API ,Data Analysis  |
+| Kishore Kumar Sunkoju | API development ,data analaysis, Python| Scripting ,Data Analysis,QA |
 | Deepthi Chenagoni | Data analysis ,Testing | build scripts , data analysis,testing |
-| Rahul Monthe | Testing ,Data analysis  |  Data analysis,test harness; build scripts.|
+| Rahul Monthe | Testing ,Data analysis  |  Data analysis,test harness; |
 
 ## DELIVERABLES AND CHECKPOINTS
 
@@ -61,7 +59,7 @@ These tables show  examples of the data that should go into each column and row.
 
 | Checkpoint date | Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
 |---------------|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|2/14/16| Exploring data analaysis of  LinkedIn API Access data setthrough standard authentication mechanisms .  | Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe   | Meets project proposal check point |
+|2/14/16| Using twitter to see the trends on usage of programming languages.  | Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe   | Meets project proposal check point |
 |     ...          | -- | --                    |  -- |
 
 
