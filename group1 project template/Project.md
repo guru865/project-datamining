@@ -33,7 +33,7 @@ Will post the code in our github repository and instructions on installation are
 
 
 
-Wee are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
+We are team of three , Kishore kumar Sunkoju ,Rahul Monthe and Deepthi Chenagoni we will be sharing our work amoung ourselves .
 Kishore will be taking care of development ,data analaysis ,back end work consisted of an API that was created to provide data to the front end.  deepthi and rahul would work on data set, data analaysis and together we are collaborating to check the progress of the project testing.
 
 
