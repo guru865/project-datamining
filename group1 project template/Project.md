@@ -10,7 +10,7 @@ Using twitter would like to see the trends on usage of programming languages and
 
 # DATA
 
-We would like to fectch data from twitter streaming API by downloading tweets related to keywords like ruby,java , python etc.
+We would like to fetch data from twitter streaming API by downloading tweets related to keywords like ruby,java , python etc.
 As a next step we need to access the 4 modules of information from twiiter as API key , API secret , Access token and Access token secret .
 We will be using the Python library "tweepy" to connect to Twitter Streaming API and download the data .
 
