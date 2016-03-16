@@ -23,7 +23,7 @@ would like to explore the trending programming languanges which are more popular
 
 # MODELS AND ANALYSIS
 
-The models are described and the preliminary analyses will be performed in a Jupyter Notebook and development in python and soon we will post them in our Github repo under analysis.
+The models are described and the preliminary analyses will be performed in a Jupyter Notebook libraries like pandas and Numpy libraries as of now and development in python and soon we will post them in our Github repo under analysis.
 
 
 
@@ -60,8 +60,6 @@ These tables show  examples of the data that should go into each column and row.
 | Checkpoint date | Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
 |---------------|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 |2/14/16| Using twitter to see the trends on usage of programming languages.  | Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe   | Meets project proposal check point |
-|   3/7/16         | In a process of creating a streaming script which collects data from twitter because as you know twitter has a limitation on number of request you make per day.
- 2. Twitter data contains information that is not useful for sentiment analysis. 
- 3. Using the API http://textprocessing.com/api/sentiment to see if initial results match the our criteria.| Kishore  Kumar sunkoju, Rahul Monthe ,Deepthi Chenagoni          | 
+|   3/7/16 | In a process of creating a streaming script which collects data from twitter because as you know twitter has a limitation on number of request you make per day. 2. Twitter data contains information that is not useful for sentiment analysis.3. Using the API http://textprocessing.com/api/sentiment to see if initial results match the our criteria.| Kishore  Kumar sunkoju, Rahul Monthe ,Deepthi Chenagoni  |                      |
 
 
