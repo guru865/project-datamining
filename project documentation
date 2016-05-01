@@ -1,0 +1,31 @@
+This is a file which compares the trends in two programming laguages Java & Scala.
+And mentions how many positive tweets and negative tweets are mentioned.
+
+BrainStroming
+  In programming community there is always a decision to make on which launguage to use. 
+  Each have thier own pros and cons. 
+  Some programming languages see an increase in usage and some reduce in usage. 
+  By using twitter we would like to take two programming languages which are a bit similar 
+  java and scala (Java8 with its streams and lambda is closer to scala) and see what people think about them.
+  We would like to compare the based on tweet sentiments how many are positive/negative for each programming language.
+  How popular is the programming language.
+
+Data Extraction and Modelling
+  We used tweepy library to pull tweets.
+  We used search api in tweepy to search for tweets with Java | Scala in them. 
+  We selected tweets which are retweeted more than 10 times and we the tweet is not a retweet. 
+Cleaning Data
+  The twitter tweet would contain a lot of information that is not needed for this project.
+  Like links user name b RT tags and hashtags.
+  Used python re module to remove tags and clean data
+  The regular expression for each of them is mentioned in the code.
+Extracting Sentiment
+  We used http://text-processing.com/api/sentiment/ rest based call to get the sentiment for each tweet. 
+  When a tweet is given as input the restApi returns positive/negative/nuetral tag.
+Representation
+  Used matplotlib to create graphs
+Conclusion
+  Even the number of tweets for Scala just edged past scala, number of positive tweets for java is more than that
+  of scala. Simlarly Scala had more negative tweets when compared to java.
+  This shows that Java still has a lot of positive impression in the minds of programmers and eventhough scala is covering
+  the gap, it hasn't done it so far.
