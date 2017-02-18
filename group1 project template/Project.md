@@ -23,7 +23,7 @@ would like to explore the trending programming languanges which are more popular
 
 # MODELS AND ANALYSIS
 
-The models are described and the preliminary analyses will be performed in a Jupyter Notebook libraries like pandas and Numpy libraries as of now and development in python and soon we will post them in our Github repo under analysis.
+The models are described and the preliminary analyses will be performed in a Jupyter Notebook and development in python and soon we will post them in our Github repo under analysis.
 
 
 
@@ -57,14 +57,9 @@ These tables show  examples of the data that should go into each column and row.
 
 
 
-| Checkpoint date and due date| Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
+| Checkpoint date | Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
 |---------------|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 |2/14/16| Using twitter to see the trends on usage of programming languages.  | Kishore Kumar Sunkoju ,Deepthi Chenagoni , Rahul Monthe   | Meets project proposal check point |
-|3/15/16 |Updated the research questions ,data section and  In a process of creating a streaming script which collects data from twitter because as you know twitter has a limitation on number of request you make per day. 2. Twitter data contains information that is not useful for sentiment analysis.3. Using the API http://textprocessing.com/api/sentiment to see if initial results match our criteria.| Kishore  Kumar sunkoju, Rahul Monthe  |                      |
-| 3/20/16 | Will upload the complete data set and intital project code .Will also answer/update the research question depending upon the results seen in initial analysis | Kishore  Kumar sunkoju ,Deepthi Chenagoni  |                      |
-| 4/3/16 | Complete the coding and simultaneous testing will be done by group all the group members to ensure the quality of the result  | Kishore  Kumar sunkoju ,Rahul Monthe ,Deepthi Chenagoni  |                      |
-| 4/17/16 | Finalize the testing phase and check the results and submit for feedback | Rahul Monthe,Deepthi Chenagoni  |           |
-| 4/25/16 | Present a final report of the project  | Kishore Kumar Sunkoju , Rahul Monthe,Deepthi Chenagoni  |           |
-
+|   3/7/16         | In a process of creating a streaming script which collects data from twitter because as you know twitter has a limitation on number of request you make per day.2. Twitter data contains information that is not useful for sentiment analysis. 3. Using the API http://textprocessing.com/api/sentiment to see if initial results match the our criteria.| Kishore  Kumar sunkoju, Rahul Monthe ,Deepthi Chenagoni          | 
 
 
