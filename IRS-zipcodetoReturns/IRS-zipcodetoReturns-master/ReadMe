@@ -1,0 +1,28 @@
+Project explanation.
+
+  
+Using IRS ZIpCode returns data we thought we can use it to predict migration patterns. 
+  Migration patterns means which states are gaining people, which are loosing people.
+  This migration might show details on the states loosing for example currently people are moving
+  out of North Dakota after shale gas slump
+  
+  So if there is an API to select AGI and state and who how the state performed in return for that AGI in that state
+  the tool would be useful for further analysis.
+
+Data Collection 
+  We used IRS Returns/Zipcode data. We collected 3 years of data to show either slump of boom in returns filed.
+
+Cleaning And Modelling data
+  The template for IRS Returns/Zipcode data changed every year in the last three years. So the data collected
+  had to be cleaned properly.
+  The we created a new template which can be used for all the three years data and changed the pandas dataframes
+  to this new template. 
+Data Representation 
+  We tried to use Bokeh library to represent data. We faced some issues with the complexities and decided upon
+  using ipywidgets.
+How to Use 
+  After completing the run of final cell a widget would appear as shown in the screenshot 
+  https://github.com/bugsX/IRS-zipcodetoReturns/blob/master/Screen%20Shot%202016-04-30%20at%2011.41.17%20PM.png 
+  You can select zipcode/State or AGI and it shows how the trend of returns in the last 3 years
+  
+
